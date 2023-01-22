@@ -11,7 +11,7 @@
 				$var = 'Controller\\'.$url;
 				new $var();
 
-				echo "<br/>".$url;
+				//echo "<br/>".$url;
 				//$cClass = new ClassN();
 
 				//$cClass->exec();

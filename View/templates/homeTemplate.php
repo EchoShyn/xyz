@@ -3,9 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>HOME</title>
+	<title>Home</title>
 </head>
 <body>
-<h2>hello world FROM TEMPLATE</h2>
+<form>
+	<input type="email" name="email" placeholder="email..." required />
+	<input type="password" name="senha" placeholder="senha..." required />
+	<input type="submit" name="action" value="enviar" />
+</form>
 </body>
 </html>

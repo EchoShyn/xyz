@@ -3,8 +3,10 @@
 	class HomeController{
 		public function __construct(){
 			new \View\HomeView('home');
-			
-			die();
+		
+			if (isset($_POST['action'])) {
+				
+			}
 		}
 	}
 ?>
