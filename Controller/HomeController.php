@@ -2,7 +2,8 @@
 	namespace Controller;
 	class HomeController{
 		public function __construct(){
-			new \View\HomeView();
+			new \View\HomeView('home');
+			
 			die();
 		}
 	}
